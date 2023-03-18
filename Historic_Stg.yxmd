@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NYPD_Arrests_Data__Historic_.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ARREST_KEY" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="ARREST_DATE" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="PD_CD" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="PD_DESC" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="KY_CD" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="OFNS_DESC" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="LAW_CODE" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="LAW_CAT_CD" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="ARREST_BORO" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="ARREST_PRECINCT" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="JURISDICTION_CODE" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="AGE_GROUP" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="PERP_SEX" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="PERP_RACE" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="X_COORD_CD" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="Y_COORD_CD" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="Latitude" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="Longitude" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+            <Field name="Lon_Lat" size="254" source="File: C:\Users\Tanaya\Downloads\OneDrive_1_4-12-2022\NYPD_Arrests_Data__Historic_.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_20032_0d69d67326c3410da693181ba758b5a4_\Engine_15340_9901734059854f5c8d5bd6ed9959c190_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ARREST_KEY","ARREST_DATE","PD_CD","PD_DESC","KY_CD","OFNS_DESC","LAW_CODE","LAW_CAT_CD","ARREST_BORO","ARREST_PRECINCT","JURISDICTION_CODE","AGE_GROUP","PERP_SEX","PERP_RACE","X_COORD_CD","Y_COORD_CD","Latitude","Longitude","Lon_Lat"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>RecordID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToString([RecordID]) + &quot;-&quot; + ToString([ARREST_DATE])" field="P_ID" size="2147483647" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[P_ID = ToString([RecordID]) + "-" + ToString([ARREST_DATE])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="510" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:damg7370|||NYC_Arrests_Historic_Stg</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370
+Query=NYC_Arrests_Historic_Stg</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Historic_Stg</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d402e4c6-48e7-41ca-baa5-d94e562e69fb" />
+      <Telemetry>
+        <PreviousWorkflowId value="0e158bd7-502b-4c49-b3ec-0f5944dcc412" />
+        <OriginWorkflowId value="0e158bd7-502b-4c49-b3ec-0f5944dcc412" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

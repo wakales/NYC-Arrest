@@ -1,0 +1,2329 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="104" y="3204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <ReadCentroids>False</ReadCentroids>
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+            <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+            <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="248" y="3204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ARREST_KEY" selected="True" />
+            <SelectField field="ARREST_DATE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="368" y="3204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:damg7370|||NYC_Arrest_Fact</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Create</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:damg7370
+Query=NYC_Arrest_Fact</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="79" y="54" width="589" height="257" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C1</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="104" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="536" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_13616_711b9d4e125b474386903b5bfdacdf69_\Engine_15340_5d5c45f4ac9a4239aaa9c60aac280bc1_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="248" y="107" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="PERP_SEX" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="392" y="108" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>perp_sex_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="536" y="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Perp_Sex</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Perp_Sex
+ALTER COLUMN perp_sex_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Perp_Sex
+ADD PRIMARY KEY (perp_sex_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Perp_Sex</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="347" width="589" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C2</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="396" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="260" y="396" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="PERP_RACE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="392" y="396" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>perp_race_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="548" y="396" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_21044_caa864af336644a6b6c085258c7a5b4e_\Engine_15340_a811c5752189431ba5929f30f94a72e5_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="524" y="480" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Perp_Race</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Perp_Race
+ALTER COLUMN perp_race_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Perp_Race
+ADD PRIMARY KEY (perp_race_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Perp_Race</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="611" width="565" height="276" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C3</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="660" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="236" y="660" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="X_COORD_CD" selected="True" />
+                <SelectField field="Y_COORD_CD" selected="True" />
+                <SelectField field="Latitude" selected="True" />
+                <SelectField field="Longitude" selected="True" />
+                <SelectField field="New Georeferenced Column" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="368" y="660" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>location_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="500" y="660" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_11536_09c35fbff2a04e8593d610d158042279_\Engine_15340_b9af371436ec4c8784ea91d24d472d5a_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="500" y="756" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Location</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Location
+ALTER COLUMN location_key int  NOT NULL;
+ 
+ALTER TABLE Dim_Location
+ADD PRIMARY KEY (location_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Location</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="923" width="550" height="261" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>C4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C4</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="972" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="224" y="972" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="KY_CD" selected="True" />
+                <SelectField field="OFNS_DESC" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="356" y="972" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>offence_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="500" y="972" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_21772_258ad9023fcf4187b024516149eb9cbd_\Engine_15340_85a0f88c5c7947c78bd7210e9f913565_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="500" y="1068" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_KY</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_KY
+ALTER COLUMN offence_key int  NOT NULL;
+ 
+ALTER TABLE Dim_KY
+ADD PRIMARY KEY (offence_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_KY</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="1187" width="551" height="237" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>C5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C5</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="1236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="236" y="1236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="PD_CD" selected="True" />
+                <SelectField field="PD_DESC" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="368" y="1236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>pd_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="500" y="1236" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_20624_acd09cfadd084d61b550c7b7a57a0e82_\Engine_15340_2fe74f89c91b49e9b024a71df4a299e5_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="500" y="1308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_PD</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_PD
+ALTER COLUMN pd_key int  NOT NULL;
+ 
+ALTER TABLE Dim_PD
+ADD PRIMARY KEY (pd_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_PD</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="1427" width="553" height="264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>C6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C6</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="1476" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="223" y="1476" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="LAW_CODE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="368" y="1476" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>law_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="536" y="1476" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_9112_7a97c0b1a41e437c98191fae35371356_\Engine_15340_499921b67bcd4364aee936bae73d0c9a_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="488" y="1560" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Lawcode</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Lawcode
+ALTER COLUMN law_key int  NOT NULL;
+ 
+ALTER TABLE Dim_Lawcode
+ADD PRIMARY KEY (law_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Lawcode</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="66" y="1715" width="646" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C7</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="91" y="1764" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="260" y="1764" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="LAW_CAT_CD" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="416" y="1764" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>perp_key</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="584" y="1836" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Law_Category</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Law_Category
+ALTER COLUMN perp_key int  NOT NULL;
+ 
+ALTER TABLE Dim_Law_Category
+ADD PRIMARY KEY (perp_key);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Law_Category</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="584" y="1764" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_16512_071f10e3a1834c9cbd23adfa43f716a9_\Engine_15340_878f3e1b03494c4cb7c14f17d5124c9f_.yxdb</TempFile>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="55" y="1991" width="576" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C8</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C8</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>C8</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C8</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="2040" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="212" y="2040" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ARREST_BORO" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="368" y="2040" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>arrest_boro_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="524" y="2040" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_17136_71a082c733e84814a40c1fefe0d3ee00_\Engine_15340_7ef682a39291496180eade7aabaf1763_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="500" y="2112" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Arrest_Borough</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Arrest_Borough
+ALTER COLUMN arrest_boro_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Arrest_Borough
+ADD PRIMARY KEY (arrest_boro_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Arrest_Borough</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="54" y="2267" width="637" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C9</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C9</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C9</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="2316" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="212" y="2316" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="ARREST_PRECINCT" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="356" y="2316" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>arrest_precinct_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="572" y="2316" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_16056_e7566a253d30484c85db5723d5254ad3_\Engine_15340_d4ebca18102240e98b95241f3fc04713_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="560" y="2424" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Arrest_Precinct</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Arrest_Precinct
+ALTER COLUMN arrest_precinct_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Arrest_Precinct
+ADD PRIMARY KEY (arrest_precinct_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Arrest_Precinct</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="2591" width="573" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>C10</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>C10</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Caption>C10</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Caption>C10</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="2640" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="236" y="2640" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="JURISDICTION_CODE" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="356" y="2640" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>jurisdiction_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="500" y="2640" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_22288_7a454151502342fcbaa2e416913fc256_\Engine_15340_8b14ef57c96445008ff383039c4e71cc_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="512" y="2748" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Jurisdiction</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Jurisdiction
+ALTER COLUMN jurisdiction_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Jurisdiction
+ADD PRIMARY KEY (jurisdiction_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Jurisdiction</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="67" y="2891" width="526" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 66</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+          <Caption>Container 66</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="61">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="92" y="2940" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <CachedCosmeticName />
+              <File RecordLimit="" FileFormat="23">aka:damg7370|||"NYC_Arrests"."dbo"."NYC_Arrests_YTD_Stg"</File>
+              <FormatSpecificOptions>
+                <PreSQL />
+                <ReadCentroids>False</ReadCentroids>
+                <PreSQLOnConfig>True</PreSQLOnConfig>
+                <NoProgress>True</NoProgress>
+                <CacheData>False</CacheData>
+                <TableStyle>Quoted</TableStyle>
+                <ReadUncommitted>False</ReadUncommitted>
+                <PostSQL />
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query="NYC_Arrests"."dbo"."NYC_Arr...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Record_ID" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="Int32" />
+                <Field name="ARREST_KEY" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_DATE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PD_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="KY_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="OFNS_DESC" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="LAW_CAT_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_BORO" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="ARREST_PRECINCT" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="JURISDICTION_CODE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="AGE_GROUP" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_SEX" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="PERP_RACE" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="X_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Y_COORD_CD" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Latitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="Longitude" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="New Georeferenced Column" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_WString" />
+                <Field name="P_ID" size="16777216" source="File: aka:damg7370|||&quot;NYC_Arrests&quot;.&quot;dbo&quot;.&quot;NYC_Arrests_YTD_Stg&quot;" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="212" y="2940" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="AGE_GROUP" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="63">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="344" y="2940" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldName>age_group_sk</FieldName>
+              <StartValue>1</StartValue>
+              <FieldType>Int32</FieldType>
+              <FieldSize>6</FieldSize>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="476" y="2940" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Tanaya\AppData\Local\Temp\Engine_21544_2193bf1e5f274382bc1ae2cc0db22825_\Engine_15340_6a030ff04c6f40dfa5562ea7a7126a0c_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="464" y="3012" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:damg7370|||Dim_Age_Grp</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Create</OutputOption>
+                <PostSQL>ALTER TABLE Dim_Age_Grp
+ALTER COLUMN age_group_sk int  NOT NULL;
+ 
+ALTER TABLE Dim_Age_Grp
+ADD PRIMARY KEY (age_group_sk);</PostSQL>
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:damg7370
+Query=Dim_Age_Grp</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="Output" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dimension Tables Loading</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="05e0fdf5-d810-4057-aab3-6566ff0f6615" />
+      <Telemetry>
+        <PreviousWorkflowId value="67050218-5db5-4cfc-ba30-ebeea76b42d0" />
+        <OriginWorkflowId value="67050218-5db5-4cfc-ba30-ebeea76b42d0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
